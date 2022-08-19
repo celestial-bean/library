@@ -1,0 +1,58 @@
+.newBook {
+    border-radius: 10px;
+    background-color: lightgray;
+    border-width: 1px;
+  }
+  .library{
+    border-radius:20px;
+    border-color: gray;
+    display:flex
+  }
+  .newBook:hover {
+    background-color: rgb(170, 170, 170);
+  }
+  
+  .card {
+    background-color: green;
+    width: 200px;
+    height: 150px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 10px;
+  }
+  
+  .name {
+    display: block;
+    text-align: center;
+  }
+  
+  .popUp {
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    opacity: 0%;
+    left: 10%;
+    color: white;
+    top: 10%;
+    display:flexbox;
+     flex-direction: column; 
+  
+  }
+  
+  .On {
+    opacity: 80%;
+    background-color: rgb(46, 46, 46);
+  }
+  .minusButton{
+      border-radius: 50%;
+      background-color: red;
+
+  }
+  input{
+      width:30%
+  }
+  .submit{
+      border-radius: 3px;
+      width:10%;
+      height:25%;
+  }

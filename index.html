@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: lightblue">
+    <button onclick=addClassOn() class="newBook">Add Book</button>
+
+    <div class="library">
+
+    </div>
+    <div class="popUp">
+        <center style="margin:20px;font-size: 25px;">
+            <div> Fill out the book details</div>
+        </center>
+
+        <form style="margin:50px; font-size: 19px; display: flex; gap:5px; flex-direction: column;">
+            <label for="author">Author:</label>
+            <input placeholder="What is the authors name?" name="author">
+
+            <label for="title">Title:</label>
+            <input placeholder="What is the book title?" name="title">
+            <label for="pages">Pages:</label>
+            <input placeholder="How many pages are in the book?" name="pages">
+
+            <label for="read">Book Read?</label>
+            <input name="read" placeholder="Have you read this book?">
+        </form>
+        <center>
+            <footer background-color:light-blue><button class="submit">Done</button></footer>
+        </center>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
